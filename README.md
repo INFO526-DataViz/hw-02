@@ -29,7 +29,7 @@ all checks pass.
     the first section on Geoms should be sufficient to help you get
     started.)
     
-3.  **Foreign Connected PACs.** Only American citizens (and immigrants
+2.  **Foreign Connected PACs.** Only American citizens (and immigrants
     with green cards) can contribute to federal politics, but the
     American divisions of foreign companies can form political action
     committees (PACs) and collect contributions from their American
@@ -99,7 +99,7 @@ all checks pass.
         number of contributions to US politics. Interpret the new
         visualization that you make.
 
-4.  **Hop on.** We have two datasets we’ll work with in this exercise:
+3.  **Hop on.** We have two datasets we’ll work with in this exercise:
 
     -   `data/rdu-flights-2020.csv`: All flights out of RDU
         (Raleigh-Durham airport) in 2020.
@@ -135,11 +135,11 @@ all checks pass.
         look and layout of the plot. (*Note:* Since ultimately you’ll be
         displaying an emoji in a plot in an R Markdown document, you
         need to add the following chunk option to the chunk where you
-        make this plot: `dev = "ragg_png"`. Otherwise the emojis will
+        make this plot: `dev = "ragg_png"`. You will also need to install the `ragg` package. Otherwise the emojis will
         not show up (or will show up as empty rectangles) when you knit
         your document. If you’re interested in learning more about
         modern text features in R, I recommend the following blog post:
-        [https://www.tidyverse.org/blog/2021/02/modern-text-features](https://www.tidyverse.org/blog/2021/02/modern-text-features/).)
+        [https://www.tidyverse.org/blog/2021/02/modern-text-features](https://www.tidyverse.org/blog/2021/02/modern-text-features/).
 
         <img src="images/plane-lollipop-1.png" width="90%" />
 
